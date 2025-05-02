@@ -1,13 +1,15 @@
-# Home Assistant Personal Plugin
+# Home Assistant Add-on: Example add-on
 
-This is a custom plugin for Home Assistant designed to extend its functionality with personalized features.
+_Example add-on to use as a blueprint for new add-ons._
 
-## Features
-- **Custom Automation**: Add tailored automations specific to your needs.
-- **Integration Support**: Seamlessly integrates with existing Home Assistant components.
-- **User-Friendly Configuration**: Easy setup and configuration through YAML or the Home Assistant UI.
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
 
-## Installation
-1. Clone this repository into your Home Assistant `custom_components` directory:
-   ```bash
-   git clone <repository-url> <home-assistant-config>/custom_components/personal_plugin
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
