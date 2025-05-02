@@ -1,0 +1,20 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: First Add-on
+version: "0.0.1"
+slug: example
+description: Example add-on
+url: "https://github.com/jivoinm/home-assistant"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/jivoinm/{arch}-addon-example"
